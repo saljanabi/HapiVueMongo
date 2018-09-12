@@ -1,8 +1,25 @@
 const Hapi = require('hapi');
 
 const server = Hapi.server({
-    port: 3000,
-    host: 'localhost'
+    port: 80,
+});
+
+server.route({
+    method: 'GET',
+    path: '/',
+    handler: (request, h) => {
+
+        return 'Hello, world!';
+    }
+});
+
+server.route({
+    method: 'GET',
+    path: '/{name}',
+    handler: (request, h) => {
+
+        return 'Hello, ' + encodeURIComponent(request.params.name) + '!';
+    }
 });
 
 const init = async () => {
