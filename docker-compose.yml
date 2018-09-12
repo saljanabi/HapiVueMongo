@@ -1,0 +1,31 @@
+version: '3.3'
+services:
+  web:
+    image: api:latest
+    container_name: hapivuemongo
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+#DB
+  mongo:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 27017:27017  
+  mongo:
+    image: mongo:latest
+    container_name: mongodb_feed
+    links:
+    - "db:database"
+    commands: mongoimport --db CID --type csv --headerline --file ./crime_incident_dump.csv
+    volumes: 
+      - ./crime_incident_dump.csv
+    ports:
+      - 27018:27018        
+    

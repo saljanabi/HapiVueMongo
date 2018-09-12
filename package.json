@@ -6,9 +6,12 @@
   "dependencies": {
     "hapi": "^17.5.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "docker-compose": "^0.8.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js" 
   },
   "repository": {
     "type": "git",
