@@ -11,21 +11,18 @@ services:
 #DB
   mongo:
     image: mongo:latest
-    container_name: mongodb
+    container_name: mongod
     restart: always
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
     ports:
-      - 27017:27017  
-  mongo:
+      - 27017:27017    
+  mongodb_feed:
     image: mongo:latest
     container_name: mongodb_feed
-    links:
-    - "db:database"
-    commands: mongoimport --db CID --type csv --headerline --file ./crime_incident_dump.csv
+    command: mongoimport --host 127.0.0.1 --port 27018 -d CID -c reports --type csv --file ./crime_incident_dump.csv --headerline
     volumes: 
       - ./crime_incident_dump.csv
     ports:
-      - 27018:27018        
+      - 27018:27018
+      
+  # mongoimport --host mongo --port 27018 --db test --mode upsert --type csv --file ./crime_incident_dump.csv
     
