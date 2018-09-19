@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 9374383ad212676d943b3df2e181071d11582f79 root <root@localhost.localdomain> 1537260285 +0200	clone: from https://github.com/symfony/debug.git
+9374383ad212676d943b3df2e181071d11582f79 c6661361626b3cf5cf2089df98b3b5006a197e85 root <root@localhost.localdomain> 1537260285 +0200	checkout: moving from master to v3.1.10

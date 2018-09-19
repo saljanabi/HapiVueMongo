@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda root <root@localhost.localdomain> 1537260282 +0200	clone: from https://github.com/php-fig/log.git
+3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda 4ebe3a8bf773a19edfe0a84b6585ba3d401b724d root <root@localhost.localdomain> 1537260283 +0200	checkout: moving from master to 1.0.2

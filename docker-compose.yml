@@ -18,11 +18,15 @@ services:
   mongodb_feed:
     image: mongo:latest
     container_name: mongodb_feed
-    command: mongoimport --host 127.0.0.1 --port 27018 -d CID -c reports --type csv --file ./crime_incident_dump.csv --headerline
+    command: mongoimport --host 127.0.0.1 --port 27018 -d CID --type csv --headerline --file src/crime_incident_dump.csv 
     volumes: 
       - ./crime_incident_dump.csv
     ports:
       - 27018:27018
+  # mysql:
+  #   image:
+  #   container_image:
+  #   restart:
+  #   ports:
+  #     - 27019:27019    
       
-  # mongoimport --host mongo --port 27018 --db test --mode upsert --type csv --file ./crime_incident_dump.csv
-    

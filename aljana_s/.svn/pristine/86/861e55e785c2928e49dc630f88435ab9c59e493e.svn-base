@@ -1,0 +1,781 @@
+[2018-09-18 09:25:30] lumen.ERROR: PDOException: could not find driver in /var/www/html/app/Http/routes.php:13
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(13): PDO->__construct('mysql:host=192....', 'root', 'example')
+#1 /var/www/html/bootstrap/app.php(97): require('/var/www/html/a...')
+#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#4 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#5 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#6 {main}  
+[2018-09-18 09:25:32] lumen.ERROR: PDOException: could not find driver in /var/www/html/app/Http/routes.php:13
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(13): PDO->__construct('mysql:host=192....', 'root', 'example')
+#1 /var/www/html/bootstrap/app.php(97): require('/var/www/html/a...')
+#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#4 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#5 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#6 {main}  
+[2018-09-18 09:25:56] lumen.ERROR: PDOException: could not find driver in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(14): PDO->__construct('mysql:host=192....', 'root', 'example')
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:26:00] lumen.ERROR: PDOException: could not find driver in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(14): PDO->__construct('mysql:host=192....', 'root', 'example')
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:26:12] lumen.ERROR: PDOException: could not find driver in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(14): PDO->__construct('mysql:host=192....', 'root', 'example')
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:29:01] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'die' (T_EXIT) in /var/www/html/app/Http/routes.php:18
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 09:29:01] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'die' (T_EXIT) in /var/www/html/app/Http/routes.php:18
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 09:29:02] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'die' (T_EXIT) in /var/www/html/app/Http/routes.php:18
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 09:58:36] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '^' in /var/www/html/app/Http/routes.php:15
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 09:58:51] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function fetchAll() on string in /var/www/html/app/Http/routes.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#8 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#9 {main}  
+[2018-09-18 09:58:59] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function fetch() on string in /var/www/html/app/Http/routes.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#8 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#9 {main}  
+[2018-09-18 09:59:13] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:59:14] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:59:28] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 09:59:29] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 10:00:43] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 10:01:17] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 10:01:18] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 10:02:05] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 10:02:06] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:43] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:44] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:45] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:45] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:45] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:04:46] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:07:32] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:07:40] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:08:08] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:08:09] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:56:15] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:56:16] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:59:54] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 11:59:57] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:00:03] lumen.ERROR: UnexpectedValueException: The Response content must be a string or object implementing __toString(), "boolean" given. in /var/www/html/vendor/symfony/http-foundation/Response.php:403
+Stack trace:
+#0 /var/www/html/vendor/illuminate/http/Response.php(48): Symfony\Component\HttpFoundation\Response->setContent(false)
+#1 /var/www/html/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(false)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(797): Symfony\Component\HttpFoundation\Response->__construct(false)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Laravel\Lumen\Application->prepareResponse(false)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:01:26] lumen.ERROR: InvalidArgumentException: Malformed UTF-8 characters, possibly incorrectly encoded in /var/www/html/vendor/illuminate/http/JsonResponse.php:69
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(50): Illuminate\Http\JsonResponse->setData(Array)
+#1 /var/www/html/vendor/illuminate/http/JsonResponse.php(27): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(41): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 0)
+#3 /var/www/html/app/Http/routes.php(24): Laravel\Lumen\Http\ResponseFactory->json(Array)
+#4 [internal function]: Closure->{closure}()
+#5 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2018-09-18 12:01:27] lumen.ERROR: InvalidArgumentException: Malformed UTF-8 characters, possibly incorrectly encoded in /var/www/html/vendor/illuminate/http/JsonResponse.php:69
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(50): Illuminate\Http\JsonResponse->setData(Array)
+#1 /var/www/html/vendor/illuminate/http/JsonResponse.php(27): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(41): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 0)
+#3 /var/www/html/app/Http/routes.php(24): Laravel\Lumen\Http\ResponseFactory->json(Array)
+#4 [internal function]: Closure->{closure}()
+#5 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2018-09-18 12:02:48] lumen.ERROR: ErrorException: Undefined variable: str in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(14): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/a...', 14, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:02:49] lumen.ERROR: ErrorException: Undefined variable: str in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(14): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/a...', 14, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:03:09] lumen.ERROR: ErrorException: htmlentities() expects parameter 1 to be string, array given in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'htmlentities() ...', '/var/www/html/a...', 20, Array)
+#1 /var/www/html/app/Http/routes.php(20): htmlentities(Array, 3, 'UTF-8')
+#2 [internal function]: Closure->{closure}()
+#3 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2018-09-18 12:04:11] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'try' (T_TRY) in /var/www/html/app/Http/routes.php:15
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:04:21] lumen.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use temporary expression in write context in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2018-09-18 12:04:34] lumen.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use temporary expression in write context in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2018-09-18 12:04:35] lumen.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Cannot use temporary expression in write context in /var/www/html/app/Http/routes.php:14
+Stack trace:
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2018-09-18 12:05:05] lumen.ERROR: InvalidArgumentException: Malformed UTF-8 characters, possibly incorrectly encoded in /var/www/html/vendor/illuminate/http/JsonResponse.php:69
+Stack trace:
+#0 /var/www/html/vendor/symfony/http-foundation/JsonResponse.php(50): Illuminate\Http\JsonResponse->setData(Array)
+#1 /var/www/html/vendor/illuminate/http/JsonResponse.php(27): Symfony\Component\HttpFoundation\JsonResponse->__construct(Array, 200, Array)
+#2 /var/www/html/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php(41): Illuminate\Http\JsonResponse->__construct(Array, 200, Array, 0)
+#3 /var/www/html/app/Http/routes.php(24): Laravel\Lumen\Http\ResponseFactory->json(Array)
+#4 [internal function]: Closure->{closure}()
+#5 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2018-09-18 12:12:20] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /var/www/html/app/Http/routes.php:19
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:15:04] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(20): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 20, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:15:21] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(20): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 20, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:15:22] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(20): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 20, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:15:36] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:15:47] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:16:06] lumen.ERROR: ErrorException: Use of undefined constant utilisateur - assumed 'utilisateur' in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(20): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Use of undefine...', '/var/www/html/a...', 20, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:16:22] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/app/Http/routes.php:20
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:16:38] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:18:07] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:18:08] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:18:16] lumen.ERROR: ErrorException: Array to string conversion in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:20:31] lumen.ERROR: ErrorException: Undefined variable: res in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:20:32] lumen.ERROR: ErrorException: Undefined variable: res in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:20:33] lumen.ERROR: ErrorException: Undefined variable: res in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:21:54] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:22:01] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:22:06] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:22:13] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(92): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#2 /var/www/html/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}  
+[2018-09-18 12:22:17] lumen.ERROR: ErrorException: Undefined offset: 2 in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined offse...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:22:18] lumen.ERROR: ErrorException: Undefined offset: 2 in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined offse...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
+[2018-09-18 12:22:25] lumen.ERROR: ErrorException: Undefined offset: 1 in /var/www/html/app/Http/routes.php:21
+Stack trace:
+#0 /var/www/html/app/Http/routes.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined offse...', '/var/www/html/a...', 21, Array)
+#1 [internal function]: Closure->{closure}()
+#2 /var/www/html/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(656): Illuminate\Container\Container->call(Object(Closure), Array)
+#4 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(630): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(529): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(783): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(535): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(476): Laravel\Lumen\Application->dispatch(NULL)
+#9 /var/www/html/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
