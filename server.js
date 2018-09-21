@@ -2,6 +2,7 @@
 
 const Hapi = require('hapi');
 const Config = require('config');
+const Joi = require('joi');
 
 const options = {
     ops: {
@@ -26,9 +27,8 @@ const server = Hapi.server({
     load: {
         sampleInterval: 1000
     },
+    Config.get('api')
 });
-
-server.connection(Config.get('api'));
 
 server.ext({
     type: 'onRequest',
@@ -36,7 +36,7 @@ server.ext({
 
         // Change all requests to '/test'
 
-        request.setUrl('/test');
+        server.log('info', 'onRequest')
         return h.continue;
     }
 });
@@ -48,7 +48,7 @@ server.register({
     server.route({
         method: 'GET',
         path: '/',
-        handler: function (request, reply) => {
+        handler: function (request, reply) {
             reply('Hello, world!');
         }
     })
@@ -66,6 +66,6 @@ server.start((err) => {
         throw err;
     }
     console.log(`Server running at: ${server.info.uri}`);
-};
+});
 
 init();

@@ -67,8 +67,8 @@ mettre en place le server
 mettre en place la première route
 LifeCycleRequest pas de middleware / remplacé par les LifeCycleRequest
 dans la vie d'une requête, on a des hooks pour provoquer une action 
-comprendre l'ordre d'exécution d'une requête : 
-comment l'utiliser :
+Validation : pallier le fait que le protocole REST n'est pas typé, contrôle sur le type récupéré. Vérifier le type en entrée et en sortie pour garantir le fonctionnement de l'application
+Module qui s'appelle joi
 
 Monolithique / Architecture microservices
 Monolithique : trois parties : interface utilisateur, base de données, une application côté serveur
