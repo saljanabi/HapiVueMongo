@@ -14,5 +14,4 @@ WORKDIR $HOME/hapi
 RUN npm install --unsafe-perm --loglevel=warn --no-progress
 
 COPY $PROJECT_DIR $HOME/hapi
-
 ENTRYPOINT ["npm", "start"]

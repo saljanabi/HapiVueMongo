@@ -23,11 +23,14 @@ services:
       - ./src/crime_incident_dump.csv:/home/crime_incident_dump.csv
     ports:
       - 27018:27018
-  mysql:
-    image: mysql:latest
-    container_image: mysql_authentication
-    volumes:
-    - ./src/authentication_hapi.sql:docker-entrypoint-initdb.d/home/authentication_hapi.sql
+  db:
+    build: ./image/mymysql
+    restart: always
     ports:
-      - 27019:27019    
-      
+      - 3306:3306
+    container_name: mysql_authentication
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=alex
+      - MYSQL_PASSWORD=test
+
