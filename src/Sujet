@@ -70,6 +70,10 @@ dans la vie d'une requête, on a des hooks pour provoquer une action
 Validation : pallier le fait que le protocole REST n'est pas typé, contrôle sur le type récupéré. Vérifier le type en entrée et en sortie pour garantir le fonctionnement de l'application
 Module qui s'appelle joi
 
+Tout rendre dans un seul fichier n'est pas lisible
+Déplacer les routes et les méthodes dans un fchier dédié
+directory routes
+
 Monolithique / Architecture microservices
 Monolithique : trois parties : interface utilisateur, base de données, une application côté serveur
 Un projet contenant toutes les fonctionnalités et différentes couches logiciel, une seule base de code, une base de données pour toute l'application
