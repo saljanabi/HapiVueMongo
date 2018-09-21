@@ -1,9 +1,10 @@
 {
   "name": "hapivuemongo",
+  "description": "HapiVueMongo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
+    "config": "^2.0.1",
     "hapi": "^17.5.4"
   },
   "devDependencies": {
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js" 
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
