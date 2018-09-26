@@ -3,6 +3,7 @@
 const Hapi = require('hapi');
 const Config = require('config');
 const Joi = require('joi');
+const Handlers = {};
 
 const options = {
     ops: {
@@ -27,19 +28,20 @@ const server = Hapi.server({
     load: {
         sampleInterval: 1000
     },
-    Config.get('api')
+    //Config.get('api')
 });
 
 server.ext({
     type: 'onRequest',
     method: function (request, h) {
-
+        
         // Change all requests to '/test'
-
+        
         server.log('info', 'onRequest')
         return h.continue;
     }
 });
+
 
 server.register({
     register: require('good'),
@@ -52,8 +54,36 @@ server.register({
             reply('Hello, world!');
         }
     })
+});
+
+server.route({
+    method: ['PUT', 'POST'],
+    path: '/todo',
+    config: {
+        payload: {
+            parse: true
+        },
+        validate: {
+            payload: Joi.object( {
+                user: Joi.number().min(1),
+                test: Joi.bool()
+            })
+        }
+    },
+    handler: Handlers.etna
+    });
+
+    next();
+};
+
+
+Handlers.example = (request, reply) => {
+    reply('todo');
 }
-    );
+
+Handlers.etna = (request, reply) => {
+    reply(request, payload)
+}
 
 const init = async () => {
     await server.start();
@@ -61,7 +91,7 @@ const init = async () => {
 };
 
 server.start((err) => {
-
+    
     if (err) {
         throw err;
     }
