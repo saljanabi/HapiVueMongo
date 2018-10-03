@@ -24,25 +24,18 @@ const options = {
     }
 }
 
-
-// // Create a server with a host and port
-// const server = new Hapi.Server();  
-// server.connection({  
-//     host: 'localhost', 
-//     port: 3000
-// });
-
+// Create a server with a host and port
 const server = Hapi.server({
-    // port: 80,
-    // load: {
-    //     sampleInterval: 1000
-    // },
+    // Mongo DB
     server.connection({  
         host: 'localhost', 
         port: 27017
     });
     //Config.get('api')
 });
+
+//Connect to db
+server.app.db = mongojs('mongo', ['books']);
 
 server.ext({
     type: 'onRequest',
@@ -112,3 +105,11 @@ server.start((err) => {
 });
 
 init();
+
+
+// // Create a server with a host and port
+// const server = new Hapi.Server();  
+// server.connection({  
+//     host: 'localhost', 
+//     port: 3000
+// });
