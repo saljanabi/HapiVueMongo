@@ -48,7 +48,9 @@ nginxuser:
         - ./image/nginx/default.conf:/etc/nginx/conf.d/default.conf
     links:
         - phpcreateuser:php
-
+####################################################################################################
+# Creating container (Nginx)
+####################################################################################################
 nginxmongo:
     image: nginx:latest
     ports:
@@ -57,24 +59,34 @@ nginxmongo:
         - ./image/nginx/default.conf:/etc/nginx/conf.d/default.conf
     links:
         - phpmongo:php
-
+####################################################################################################
+# Creating container (Web)
+####################################################################################################
 web:
   build: ./image/hapi
   ports:
     - 80:80
-#DB
+####################################################################################################
+# Creating container (Mongo)
+####################################################################################################
 mongo:
   image: mongo:latest
   restart: always
   ports:
-    - 27017:27017    
+    - 27017:27017
+####################################################################################################
+# Creating container (MongoFeed)
+####################################################################################################        
 mongodb_feed:
   image: mongo:latest
-  command: mongoimport --host 192.168.110.133 --type csv --collection HapiVueMongo --db CID --headerline --file '/home/crime_incident_dump.csv'
+  command: mongoimport --host 172.16.4.82 --type csv --collection HapiVueMongo --db CID --headerline --file '/home/crime_incident_dump.csv'
   volumes: 
     - ./src/crime_incident_reports.datadump-2.csv:/home/crime_incident_dump.csv
   ports:
     - 27018:27018
+####################################################################################################
+# Creating container (MySQL)
+####################################################################################################    
 mysql:
   build: ./image/mymysql/
   restart: always
