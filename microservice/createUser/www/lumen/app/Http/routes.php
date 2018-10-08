@@ -22,7 +22,7 @@ $app->post('/' ,function (\Illuminate\Http\Request $request) use ($app) {
 			$pnom = $request->input("pnom");
 			$role = $request->input("role");
 			$password = $request->input("pass");
-				$dbh = new PDO('mysql:host=192.168.110.133;dbname=police',"root","example");
+				$dbh = new PDO('mysql:host=192.168.0.11;dbname=police',"root","example");
 				$sth = "insert into users (nom,pnom,username,role,password) values ('$nom','$pnom','$username','$role',sha2('$password', 512 ))";
 				$ste = $dbh->prepare($sth);
 				if ($ste->execute())

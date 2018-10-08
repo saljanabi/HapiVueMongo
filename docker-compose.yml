@@ -62,10 +62,10 @@ nginxmongo:
 ####################################################################################################
 # Creating container (Web)
 ####################################################################################################
-web:
-  build: ./image/hapi
-  ports:
-    - 80:80
+# web:
+#   build: ./image/hapi
+#   ports:
+#     - 80:80
 ####################################################################################################
 # Creating container (Mongo)
 ####################################################################################################
@@ -79,7 +79,7 @@ mongo:
 ####################################################################################################        
 mongodb_feed:
   image: mongo:latest
-  command: mongoimport --host 172.16.4.82 --type csv --collection HapiVueMongo --db CID --headerline --file '/home/crime_incident_dump.csv'
+  command: mongoimport --host 192.168.0.11 --type csv --collection HapiVueMongo --db CID --headerline --file '/home/crime_incident_dump.csv'
   volumes: 
     - ./src/crime_incident_reports.datadump-2.csv:/home/crime_incident_dump.csv
   ports:
