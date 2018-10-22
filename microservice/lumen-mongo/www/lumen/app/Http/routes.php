@@ -12,7 +12,7 @@
 */
 $app->post('/' ,function (\Illuminate\Http\Request $request) use ($app) {
 $truc = $request->input("category");
-$mongo = new MongoDB\Driver\Manager("mongodb://192.168.0.11:27017",['db' => 'CID']);
+$mongo = new MongoDB\Driver\Manager("mongodb://192.168.110.133:27017",['db' => 'CID']);
 $stats = new MongoDB\Driver\Query([]);
 $rows = $mongo->executeQuery("CID.HapiVueMongo", $stats);
 $res = [];

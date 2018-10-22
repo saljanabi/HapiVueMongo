@@ -13,7 +13,7 @@
 $app->get('/' ,function (\Illuminate\Http\Request $request) use ($app) {
 		$filename = "users.csv";
 		$f = fopen('php://memory' , 'w');
-		$dbh = new PDO('mysql:host=192.168.0.11;dbname=police',"root","example");
+		$dbh = new PDO('mysql:host=192.168.110.133;dbname=police',"root","example");
 		$sth = 'select concat(id,";",username,";",nom,";",pnom,";",role) utilisateur from users';
 		$ste = $dbh->prepare($sth);
 		$ste->execute();
